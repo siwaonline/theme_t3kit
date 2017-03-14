@@ -22,12 +22,16 @@
             "T3kit\\themeT3kit\\": "Classes/"
         }
     },
+    "minimum-stability": "dev",
     "require": {
-        "typo3/cms": ">=6.2.0 <=7.7.99",
-        "typo3-ter/dyncss": ">=0.7.0 <=0.7.99",
-        "typo3-ter/dyncss-less": ">=0.7.0 <=0.7.99",
-        "typo3-themes/themes": ">=7.0.0 <=7.2.99",
-        "t3kit/t3kit-extension-tools": "*",
-        "typo3-ter/gridelements": ">=7.0.0 <=7.2.99"
+        "typo3/cms": ">=7.6.0 <=7.6.99",
+        "typo3-ter/dyncss": ">=0.7.9 <=0.7.99",
+        "typo3-ter/dyncss-less": ">=0.7.7 <=0.7.99",
+        "typo3-themes/themes": ">=7.0.3 <=7.0.99",
+        "t3kit/t3kit-extension-tools": "1.2.*",
+        "typo3-ter/gridelements": ">=7.0.5 <=7.0.99"
+    },
+    "require-dev": {
+        "t3kit/t3kit-extension-tools": "dev-master"
     }
 }
